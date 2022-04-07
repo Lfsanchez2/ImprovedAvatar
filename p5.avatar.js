@@ -195,7 +195,7 @@ class NPC extends Avatar {
   }
 
   // Adds multiple interactions for an NPC that are stored in a CSV file. The given parameter
-  // should be a CSV filepath. If the given CSV does not file the expected column format, nothing
+  // should be a CSV filepath. If the given CSV does not follow the expected column format, nothing
   // will be added to the NPC's interactions. This function will only accept String parameters.
   addInteraction(interactionCSV) {
     let interactionTable = interactionCSV.loadTable();
